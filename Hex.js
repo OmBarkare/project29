@@ -7,7 +7,7 @@ class Hex{
         }
         this.body = Bodies.circle(x,y,radius,options,sides);
         this.radius = radius;
-        this.image = loadImage("images/hexagon.png")
+        this.image = loadImage("hexagon.png")
         World.add(world,this.body);
     }
     display(){
